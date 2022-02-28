@@ -5,6 +5,8 @@ import pandas as pd
 import datetime as dt
 from webdriver_manager.chrome import ChromeDriverManager
 
+# from app import scrape
+
 
 def scrape_all():
     # Initiate headless driver for deployment
@@ -85,3 +87,5 @@ def scrape_all():
 
     return data
 
+# data = scrape_all()
+# print(data)
